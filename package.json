@@ -1,0 +1,11 @@
+{
+  "name": "data-storage-website-vii",
+  "version": "1.0.0",
+  "description": "My seventh (seventh, I know!) Data Storage Website, but also I think the most successful.",
+  "main": "scripts/usersmain.js",
+  "scripts": {
+    "test": "console.log(\"Hello, world!\");"
+  },
+  "author": "Camilo Mason",
+  "license": "ISC"
+}
