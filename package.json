@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/camzillajs101/data-storage-website-vii/issues"
   },
-  "homepage": "https://github.com/camzillajs101/data-storage-website-vii#readme"
+  "homepage": "https://github.com/camzillajs101/data-storage-website-vii#readme",
+  "dependencies": {
+    "cloudboost": "^2.0.262",
+    "dotenv": "^4.0.0",
+    "sendgrid": "^5.1.0"
+  }
 }
