@@ -7,5 +7,13 @@
     "test": "console.log(\"Hello, world!\");"
   },
   "author": "Camilo Mason",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camzillajs101/data-storage-website-vii.git"
+  },
+  "bugs": {
+    "url": "https://github.com/camzillajs101/data-storage-website-vii/issues"
+  },
+  "homepage": "https://github.com/camzillajs101/data-storage-website-vii#readme"
 }
