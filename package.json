@@ -19,6 +19,7 @@
   "dependencies": {
     "cloudboost": "^2.0.262",
     "dotenv": "^4.0.0",
+    "expressjs": "^1.0.1",
     "sendgrid": "^5.1.0"
   }
 }
