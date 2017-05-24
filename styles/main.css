@@ -1,0 +1,104 @@
+body {
+  background-color: rgba(0,0,255,0.3);
+  font-family: Arial;
+}
+#main-container {
+  padding: 10px;
+  border: 1px solid gray;
+  height: 800px;
+  width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+.form-input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 40px;
+  font-size: 1em;
+}
+input:focus {
+  outline: none;
+  border: 1px solid black;
+}
+#form-button {
+  color: white;
+  border-radius: 5px;
+  font-size: 1.3em;
+  width: 306px;
+  height: 60px;
+  background-color: #353efc;
+  border: none;
+}
+.form-container-box {
+  margin: auto;
+  border: 1px solid silver;
+  width: 400px;
+  height: 450px;
+}
+.form-container {
+  align-content: center;
+  position: relative;
+  top: 30%;
+  width: 320px;
+  height: 320px;
+  margin: auto;
+}
+.form-text {
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-size: 1.5em;
+  color: gray;
+}
+.text-container {
+  position: relative;
+  top: 15%;
+}
+a:link, a:visited {
+  color: #7FDBFF;
+}
+#text-container-signup {
+  position: relative;
+  top: 10%;
+}
+#form-container-signup {
+  position: relative;
+  top: 20%;
+}
+#form-container-box-signup {
+  height: 475px;
+}
+.form-error-text {
+  text-align: center;
+  font-family: monospace;
+}
+.form-error-text-container {
+  position: relative;
+  top: 15%;
+}
+#form-error-text-container-login {
+  position: relative;
+  top: 20%;
+}
+h2 {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+#form-button:hover {
+  background-color: #6269fc;
+  border: 1px solid white;
+}
+footer {
+  position: absolute;
+  top: bottom;
+  left: 0px;
+  width: 100vw;
+  height: 2cm;
+  background-color: #e6e6e6;
+  border-top: 1.5px solid gray;
+}
