@@ -6,10 +6,10 @@
 	<head>
     <title>C-Mail</title>
 		<link rel="stylesheet" href="../styles/main.css">
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" href="../images/favicon.png">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="https://cloudboost.io/js-sdk/cloudboost.min.js"></script>
-		<script src="../scripts/usersmain.js"></script>
+		<script src="../scripts/usermain.js"></script>
 	</head>
 	<body>
 		<div id="main-container">
@@ -28,12 +28,19 @@
 							<form id="login_form" method="get">
 								<input class="form-input" type="text" name="username" placeholder=" Username" required><br>
 								<input class="form-input" type="password" name="password" placeholder=" Password" required><br>
-								<input type="button" id="form-button" name="form_submit" value="Log In" onclick="login(this.form)">
+								<input type="button" id="form-button" name="form_submit" value="Log In" onclick="logIn(this.form)">
 							</form>
-							<h6>New to <i>C-Mail?</i> Sign up <a href="signup.html">here!</a></h6>
+							<center id="form-bottom-text">
+								<h6>New to <i>C-Mail?</i> Sign up <a href="signup.html">here!</a><br><br>
+									<a href="reset_pass.html">Forgot your password?</a></h6>
+							</center>
 						</div>
 					</div>
 			</div>
 		</div>
 	</body>
+	<br>
+	<footer>
+
+	</footer>
 </html>
