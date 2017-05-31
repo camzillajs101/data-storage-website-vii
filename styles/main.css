@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(0,0,255,0.3);
+  background-color: #e6e6e6;
   font-family: Arial;
 }
 #main-container {
@@ -16,10 +16,9 @@ h1, h2, h3, h4, h5 {
 }
 .form-input {
   border: 1px solid gray;
-  border-radius: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 300px;
+  width: 1px;
   height: 40px;
   font-size: 1em;
 }
@@ -28,19 +27,23 @@ input:focus {
   border: 1px solid black;
 }
 #form-button {
+  left: -40px;
+  top: -6px;
+  float: left;
+  position: relative;
   color: white;
-  border-radius: 5px;
   font-size: 1.3em;
-  width: 306px;
-  height: 60px;
+  width: 400px;
+  height: 70px;
   background-color: #353efc;
   border: none;
 }
 .form-container-box {
+  background-color: white;
   margin: auto;
-  border: 1px solid silver;
+  border: 2px solid silver;
   width: 400px;
-  height: 450px;
+  height: 400px;
 }
 .form-container {
   align-content: center;
@@ -101,4 +104,22 @@ footer {
   height: 2cm;
   background-color: #e6e6e6;
   border-top: 1.5px solid gray;
+}
+.input_icon_box {
+  width: 40px;
+  height: 40px;
+  background-color: #e6e6e6;
+}
+img[src="../images/password_logo.png"] {
+  margin-top: 17%;
+  height: 60%;
+  width: 60%;
+}
+img[src="../images/user_logo.png"] {
+  margin-top: 17%;
+  height: 60%;
+  width: 60%;
+}
+img {
+  filter: contrast(5%);
 }
