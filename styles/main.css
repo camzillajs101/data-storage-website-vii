@@ -110,12 +110,12 @@ footer {
   height: 40px;
   background-color: #e6e6e6;
 }
-img[src="../images/password_logo.png"] {
+img[src="../image/password_logo.png"] {
   margin-top: 17%;
   height: 60%;
   width: 60%;
 }
-img[src="../images/user_logo.png"] {
+img[src="../image/user_logo.png"] {
   margin-top: 17%;
   height: 60%;
   width: 60%;
